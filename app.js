@@ -23,7 +23,7 @@ const resetGame = () =>{
     enableBoxes();
     msgContainer.classList.add("hide");
     dyeCount = 0;
-}
+};
 
 boxes.forEach((box)=>{
     box.addEventListener("click", ()=>{
